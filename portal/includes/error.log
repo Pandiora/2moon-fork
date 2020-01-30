@@ -1,0 +1,173 @@
+[30-Jan-2020 00:18:58 Europe/Brussels] PHP Fatal error:  Uncaught ErrorException: Undefined offset: 8192 in /home/bsu/portal/includes/GeneralFunctions.php:714
+Stack trace:
+#0 /home/bsu/portal/includes/GeneralFunctions.php(714): errorHandler(8, 'Undefined offse...', '/home/bsu/porta...', 714, Array)
+#1 [internal function]: exceptionHandler(Object(ErrorException))
+#2 {main}
+  thrown in /home/bsu/portal/includes/GeneralFunctions.php on line 714
+[30-Jan-2020 00:19:30 Europe/Brussels] PHP Fatal error:  Uncaught ErrorException: Undefined offset: 8192 in /home/bsu/portal/includes/GeneralFunctions.php:714
+Stack trace:
+#0 /home/bsu/portal/includes/GeneralFunctions.php(714): errorHandler(8, 'Undefined offse...', '/home/bsu/porta...', 714, Array)
+#1 [internal function]: exceptionHandler(Object(ErrorException))
+#2 {main}
+  thrown in /home/bsu/portal/includes/GeneralFunctions.php on line 714
+[30-Jan-2020 00:19:37 Europe/Brussels] PHP Fatal error:  Uncaught ErrorException: Undefined offset: 8192 in /home/bsu/portal/includes/GeneralFunctions.php:714
+Stack trace:
+#0 /home/bsu/portal/includes/GeneralFunctions.php(714): errorHandler(8, 'Undefined offse...', '/home/bsu/porta...', 714, Array)
+#1 [internal function]: exceptionHandler(Object(ErrorException))
+#2 {main}
+  thrown in /home/bsu/portal/includes/GeneralFunctions.php on line 714
+[30-Jan-2020 00:22:25] USER ERROR: "Call to undefined function curl_init()"
+File: /home/bsu/portal/verif.php | Line: 19
+URL: https://www.game.pandiora.pw/verif.php?action=verifpsuedo | Version: 1.7.git
+USERID: 
+Stack trace:
+#0 /verif.php(108): checkUsernameApi('bsu')
+#1 {main}
+[30-Jan-2020 00:22:26] USER ERROR: "Call to undefined function curl_init()"
+File: /home/bsu/portal/verif.php | Line: 19
+URL: https://www.game.pandiora.pw/verif.php?action=verifpsuedo | Version: 1.7.git
+USERID: 
+Stack trace:
+#0 /verif.php(108): checkUsernameApi('bsu')
+#1 {main}
+[30-Jan-2020 00:22:35] USER ERROR: "Call to undefined function curl_init()"
+File: /home/bsu/portal/includes/pages/login/ShowRegisterPage.class.php | Line: 48
+URL: https://www.game.pandiora.pw/index.php?page=register | Version: 1.7.git
+USERID: 
+Stack trace:
+#0 /includes/pages/login/ShowRegisterPage.class.php(243): ShowRegisterPage-&gt;checkUsernameApi('bsu')
+#1 /index.php(82): ShowRegisterPage-&gt;send()
+#2 {main}
+[30-Jan-2020 00:36:54] USER ERROR: "Call to undefined function curl_init()"
+File: /home/bsu/portal/verif.php | Line: 19
+URL: https://www.game.pandiora.pw/verif.php?action=verifpsuedo | Version: 1.7.git
+USERID: 
+Stack trace:
+#0 /verif.php(108): checkUsernameApi('sfh')
+#1 {main}
+[30-Jan-2020 00:36:55] USER ERROR: "Call to undefined function curl_init()"
+File: /home/bsu/portal/verif.php | Line: 19
+URL: https://www.game.pandiora.pw/verif.php?action=verifpsuedo | Version: 1.7.git
+USERID: 
+Stack trace:
+#0 /verif.php(108): checkUsernameApi('sfh')
+#1 {main}
+[30-Jan-2020 00:36:55] USER ERROR: "Call to undefined function curl_init()"
+File: /home/bsu/portal/verif.php | Line: 19
+URL: https://www.game.pandiora.pw/verif.php?action=verifpsuedo | Version: 1.7.git
+USERID: 
+Stack trace:
+#0 /verif.php(108): checkUsernameApi('sfhkds')
+#1 {main}
+[30-Jan-2020 00:36:55] USER ERROR: "Call to undefined function curl_init()"
+File: /home/bsu/portal/verif.php | Line: 19
+URL: https://www.game.pandiora.pw/verif.php?action=verifpsuedo | Version: 1.7.git
+USERID: 
+Stack trace:
+#0 /verif.php(108): checkUsernameApi('sfhkdshf')
+#1 {main}
+[30-Jan-2020 00:36:55] USER ERROR: "Call to undefined function curl_init()"
+File: /home/bsu/portal/verif.php | Line: 19
+URL: https://www.game.pandiora.pw/verif.php?action=verifpsuedo | Version: 1.7.git
+USERID: 
+Stack trace:
+#0 /verif.php(108): checkUsernameApi('sfhkdshf')
+#1 {main}
+[30-Jan-2020 00:36:55] USER ERROR: "Call to undefined function curl_init()"
+File: /home/bsu/portal/verif.php | Line: 19
+URL: https://www.game.pandiora.pw/verif.php?action=verifpsuedo | Version: 1.7.git
+USERID: 
+Stack trace:
+#0 /verif.php(108): checkUsernameApi('sfhkdshfk')
+#1 {main}
+[30-Jan-2020 00:36:55] USER ERROR: "Call to undefined function curl_init()"
+File: /home/bsu/portal/verif.php | Line: 19
+URL: https://www.game.pandiora.pw/verif.php?action=verifpsuedo | Version: 1.7.git
+USERID: 
+Stack trace:
+#0 /verif.php(108): checkUsernameApi('sfhkdshfk')
+#1 {main}
+[30-Jan-2020 00:36:55] USER ERROR: "Call to undefined function curl_init()"
+File: /home/bsu/portal/verif.php | Line: 19
+URL: https://www.game.pandiora.pw/verif.php?action=verifpsuedo | Version: 1.7.git
+USERID: 
+Stack trace:
+#0 /verif.php(108): checkUsernameApi('sfhkdshfkjd')
+#1 {main}
+[30-Jan-2020 00:36:55] USER ERROR: "Call to undefined function curl_init()"
+File: /home/bsu/portal/verif.php | Line: 19
+URL: https://www.game.pandiora.pw/verif.php?action=verifpsuedo | Version: 1.7.git
+USERID: 
+Stack trace:
+#0 /verif.php(108): checkUsernameApi('sfhkdshfkjd')
+#1 {main}
+[30-Jan-2020 00:36:55] USER ERROR: "Call to undefined function curl_init()"
+File: /home/bsu/portal/verif.php | Line: 19
+URL: https://www.game.pandiora.pw/verif.php?action=verifpsuedo | Version: 1.7.git
+USERID: 
+Stack trace:
+#0 /verif.php(108): checkUsernameApi('sfhkdshfkjd')
+#1 {main}
+[30-Jan-2020 00:36:55] USER ERROR: "Call to undefined function curl_init()"
+File: /home/bsu/portal/verif.php | Line: 19
+URL: https://www.game.pandiora.pw/verif.php?action=verifpsuedo | Version: 1.7.git
+USERID: 
+Stack trace:
+#0 /verif.php(108): checkUsernameApi('sfhkdshfkjdf')
+#1 {main}
+[30-Jan-2020 00:36:56] USER ERROR: "Call to undefined function curl_init()"
+File: /home/bsu/portal/verif.php | Line: 19
+URL: https://www.game.pandiora.pw/verif.php?action=verifpsuedo | Version: 1.7.git
+USERID: 
+Stack trace:
+#0 /verif.php(108): checkUsernameApi('sfhkdshfkjdf')
+#1 {main}
+[30-Jan-2020 00:37:00] WARNING: "gethostbyaddr(): Address is not a valid IPv4 or IPv6 address"
+File: /home/bsu/portal/verif.php | Line: 41
+URL: https://www.game.pandiora.pw/verif.php?action=verifemail | Version: 1.7.git
+USERID: 
+Stack trace:
+#0 [internal function]: errorHandler(2, 'gethostbyaddr()...', '/home/bsu/porta...', 41, Array)
+#1 /verif.php(41): gethostbyaddr('dfjkdf.de')
+#2 /verif.php(57): disposablecheck('shfdshfdfk@dfjk...')
+#3 {main}
+[30-Jan-2020 00:37:04] WARNING: "gethostbyaddr(): Address is not a valid IPv4 or IPv6 address"
+File: /home/bsu/portal/includes/pages/login/ShowRegisterPage.class.php | Line: 66
+URL: https://www.game.pandiora.pw/index.php?page=register | Version: 1.7.git
+USERID: 
+Stack trace:
+#0 [internal function]: errorHandler(2, 'gethostbyaddr()...', '/home/bsu/porta...', 66, Array)
+#1 /includes/pages/login/ShowRegisterPage.class.php(66): gethostbyaddr('dfjkdf.de')
+#2 /includes/pages/login/ShowRegisterPage.class.php(196): ShowRegisterPage-&gt;disposablecheck('shfdshfdfk@dfjk...')
+#3 /index.php(82): ShowRegisterPage-&gt;send()
+#4 {main}
+[30-Jan-2020 00:37:26] USER ERROR: "Call to undefined function curl_init()"
+File: /home/bsu/portal/includes/pages/login/ShowRegisterPage.class.php | Line: 48
+URL: https://www.game.pandiora.pw/index.php?page=register | Version: 1.7.git
+USERID: 
+Stack trace:
+#0 /includes/pages/login/ShowRegisterPage.class.php(243): ShowRegisterPage-&gt;checkUsernameApi('sfhkdshfkjdf')
+#1 /index.php(82): ShowRegisterPage-&gt;send()
+#2 {main}
+[30-Jan-2020 00:50:36] USER ERROR: "Call to undefined function curl_init()"
+File: /home/bsu/portal/verif.php | Line: 19
+URL: https://www.game.pandiora.pw/verif.php?action=verifpsuedo | Version: 1.7.git
+USERID: 
+Stack trace:
+#0 /verif.php(108): checkUsernameApi('bsu')
+#1 {main}
+[30-Jan-2020 00:50:37] USER ERROR: "Call to undefined function curl_init()"
+File: /home/bsu/portal/verif.php | Line: 19
+URL: https://www.game.pandiora.pw/verif.php?action=verifpsuedo | Version: 1.7.git
+USERID: 
+Stack trace:
+#0 /verif.php(108): checkUsernameApi('bsu')
+#1 {main}
+[30-Jan-2020 00:50:39] USER ERROR: "Call to undefined function curl_init()"
+File: /home/bsu/portal/includes/pages/login/ShowRegisterPage.class.php | Line: 48
+URL: https://www.game.pandiora.pw/index.php?page=register | Version: 1.7.git
+USERID: 
+Stack trace:
+#0 /includes/pages/login/ShowRegisterPage.class.php(243): ShowRegisterPage-&gt;checkUsernameApi('bsu')
+#1 /index.php(82): ShowRegisterPage-&gt;send()
+#2 {main}
