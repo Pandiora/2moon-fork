@@ -54,9 +54,9 @@
         			<span style="color:#F33">{$ally_fraction_fleet_price}%</span>
         			<span style="color:#666;" class="tooltip" data-tooltip-content="{$LNG.ally_fractions_8}">(-0.2%)</span><br />
 					
-					{$LNG.ally_fractions_19}: 
+					{*{$LNG.ally_fractions_19}: 
         			<span style="color:#0F6">{$ally_fraction_def_debris}%</span>
-        			<span style="color:#666;" class="tooltip" data-tooltip-content="{$LNG.ally_fractions_8}">(0.15%)</span><br />
+        			<span style="color:#666;" class="tooltip" data-tooltip-content="{$LNG.ally_fractions_8}">(0.15%)</span><br />*}
 					
                 
     </div>   	

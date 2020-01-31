@@ -358,7 +358,7 @@ function quattroopen(){
 
 			   </div>
                 </div> </div>		
-				 <div class="left_part" style="width: 50%">                     
+				 <div class="left_part" style="width: 50%">                    
                 <div class="opzioni" style="padding: 0px;height: 25px;">
                 <div style="float: left;margin-right: -5px; margin-left: 6px;">
         <input style="float:left; margin:5px 6px 0 0;" id="deleteID" name="delete" type="checkbox" value="1"{if $deleteAcs > 0} checked="checked"{/if}>

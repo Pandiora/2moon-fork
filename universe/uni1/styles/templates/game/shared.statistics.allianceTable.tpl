@@ -44,10 +44,10 @@ tr:hover{
   <table class="tablesorter ally_ranks" style="border-spacing: 0px 2px;    border-collapse: separate;">
      <tbody><tr>
 	<th colspan="2" >{$LNG.st_position}</th>
-	<th >[Fraction]{$LNG.st_alliance}</th>	
+	<th >{$LNG.st_alliance}</th>	
 	<th style="text-align: center;">{$LNG.st_members}</th>
-	<th style="text-align: center;">{$LNG.st_points}</th>
-	<th style=" text-align: right;">{$LNG.st_per_member}</th>
+	<th style=" text-align: center;">{$LNG.st_per_member}</th>
+	<th style="text-align: right;">{$LNG.st_points}</th>
 </tr></tbody></table>
 
   <table class="tablesorter ally_ranks" style="border-spacing: 0px 2px;border-collapse: separate;padding:0px 2px 2px 2px">
@@ -63,7 +63,8 @@ tr:hover{
             	</a>
     </td>
 	<td style="border-right:none;border-left:none;border-color: #000000;">{$RangeInfo.members}</td>
-	<td style="border-right:none;border-left:none;border-color: #000000;">{$RangeInfo.points}</td>
 	<td style="text-align: right;padding-right: 10px;color: #a9a9a9;border-left:none;border-color: #000000;">{$RangeInfo.mppoints}</td>
+	<td style="border-right:none;border-left:none;border-color: #000000;">{$RangeInfo.points}</td>
+	
 </tr>
 {/foreach}

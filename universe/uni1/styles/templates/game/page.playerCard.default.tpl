@@ -5,7 +5,7 @@
 	<div id="content">
 <div id="ally_content" class="conteiner player_card" style="width:auto;">
     <div class="gray_stripe">
-      	{if $HonourStatus != 'none'}<span class="honorRank {$HonourStatus}">&nbsp;</span>{/if} {$name} &nbsp;&nbsp;&nbsp;
+      	{$name} &nbsp;&nbsp;&nbsp;
         <span style="color:#999;">{$LNG.pl_homeplanet}:
         	<a href="#" onclick="parent.location = 'game.php?page=galaxy&amp;galaxy={$galaxy}&amp;system={$system}';return false;">{$homeplanet} [{$galaxy}:{$system}:{$planet}]</a>
         &nbsp;&nbsp;&nbsp;

@@ -14,17 +14,6 @@
         <a href="#" onclick="return Dialog.manualinfo(10);" class="interrogation manual">?</a>
 	</div>
     <div id="build_elements" class="upgrade_list">
-		      {if $displayadsmd == 1}
-	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- War Of Galaxyz #Game -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-2369063859511778"
-     data-ad-slot="3349807407"
-     data-ad-format="auto"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>{/if}
 			  
 			  {foreach $ArsenalList as $ID => $Element}
 		    	<div class="build_box">
@@ -46,7 +35,7 @@
                      <input name="greid" value="{$Element.CustomVar}" type="hidden">                        
                      <div class="btn_build_border btn_build_border_right"> 
 						<input class="ar_count" min="0" max="50" name="count_{$Element.CustomVar}" value="0" type="number">
-                        <input id="submitArsenal_{$Element.CustomVar}" value="{$LNG.customm_31}" onclick="arsenalSend('{$Element.CustomVar}');return false;" class="input_btn ar_input_btn tooltip" data-tooltip-content="<span style='color:#3DC738'>{$LNG.customm_32}: {$Element.chance}%</span>" style="width: 100% !important;padding-left: 61px;" type="submit" name="submitArsenal">
+                        <input id="submitArsenal_{$Element.CustomVar}" value="{$LNG.customm_31}" onclick="arsenalSend('{$Element.CustomVar}');return false;" class="input_btn ar_input_btn tooltip" data-tooltip-content="<span style='color:#{if $Element.chance >= 75}3DC738{elseif $Element.chance >= 40}FFA500{else}CD3232{/if}'>{$LNG.customm_32}: {$Element.chance}%</span>" style="width: 100% !important;padding-left: 61px;" type="submit" name="submitArsenal">
                      </div>
 					{/if}
 					

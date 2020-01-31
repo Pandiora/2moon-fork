@@ -711,7 +711,6 @@ function exceptionHandler($exception)
 <!--[if IE 9 ]>    <html lang="de" class="no-js ie9"> <![endif]-->
 <!--[if (gt IE 9)|!(IE)]><!--> <html lang="de" class="no-js"> <!--<![endif]-->
 <head>
-	<title>'.$gameName.' - '.$errorType[$errno].'</title>
 	<meta name="generator" content="2Moons '.$VERSION.'">
 	<!-- 
 		This website is powered by 2Moons '.$VERSION.'
@@ -757,7 +756,7 @@ function exceptionHandler($exception)
 <body id="overview" class="full">
 <table width="960">
 	<tr>
-		<th>'.$errorType[$errno].'</th>
+
 	</tr>
 	<tr>
 		<td class="left">

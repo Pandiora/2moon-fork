@@ -1686,7 +1686,7 @@ abstract class AbstractGamePage
 			'cosmonaute_status'		=> $config->cosmonaute_status,
 			'halloween_event'		=> $config->halloween_event,
 			'xteriumAllyIdAbstra'	=> $config->xteriumAllyId,
-			'hasBoard'				=> filter_var($config->forum_url, FILTER_VALIDATE_URL, FILTER_FLAG_SCHEME_REQUIRED),
+			'hasBoard'				=> filter_var($config->forum_url, FILTER_VALIDATE_URL),
 			'hasAdminAccess'		=> !empty(Session::load()->adminAccess),
 			'hasGate'				=> $PLANET[$resource[43]] > 0,
 			'bonus_timer'			=> $USER['bonus_timer'],

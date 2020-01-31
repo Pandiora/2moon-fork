@@ -60,5 +60,5 @@
                 </div><!--latest_articles-->
 {/block}
 {block name="script" append}
-<script>{if $code}alert({$code|json});{/if}</script>
+<script>{if $code}alert({$code});{/if}</script>
 {/block}

@@ -27,8 +27,8 @@
         		<span style='color:#0F6'>{$ally_fraction_level * $ALLFRACTION.ally_fraction_teleporter}%</span><br />
 				{$LNG.ally_fractions_40}: 
         		<span style='color:#F33'>{$ally_fraction_level * $ALLFRACTION.ally_fraction_fleet_price}%</span><br />
-				{$LNG.ally_fractions_19}: 
-        		<span style='color:#0F6'>{$ally_fraction_level * $ALLFRACTION.ally_fraction_def_debris}%</span><br />
+				{*{$LNG.ally_fractions_19}: 
+        		<span style='color:#0F6'>{$ally_fraction_level * $ALLFRACTION.ally_fraction_def_debris}%</span><br />*}
 				{elseif $ally_fraction_id == 2}<div style='border-bottom:1px dashed #666; margin:7px 0 4px 0;'></div>
 				{$LNG.ally_fractions_9}, {$LNG.ally_fractions_24}, {$LNG.ally_fractions_25}: 
         		<span style='color:#0F6'>{$ally_fraction_level * $ALLFRACTION.ally_fraction_armor}%</span><br />

@@ -8,17 +8,6 @@
 		{$LNG.planet_changing}
     </div>
 	<div id="build_elements" class="officier_elements prem_shop">
-	{if $displayadsmd == 1}
-	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- War Of Galaxyz #Game -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-2369063859511778"
-     data-ad-slot="3349807407"
-     data-ad-format="auto"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>{/if}
          <div class="build_box">
             <div class="head" onclick="OpenBox('fields');">
                 {$LNG.planet_incre_foe}
@@ -82,21 +71,33 @@
             </div>   	
     		</div>
         </div>
-         {*<div class="build_box">
+         <div class="build_box">
             <div class="head" onclick="OpenBox('diameter');">
                 <span style="cursor:help; float:left; margin-right:8px;" class="interrogation tooltip" data-tooltip-content="{$LNG.lm_bonus}:<br />
 • {$LNG.ov_diameter}<span style='color:#0C0; font-weight:bold;'>{$isPlanetDiameter}</span><br />                  
 • {$LNG.ov_fields} <span style='color:#0C0; font-weight:bold;'>{$isPlanetFields}</span>">?</span>{$LNG.planet_dia_s_2}<span id="open_btn_diameter" class="prem_open_btn">-</span> 
             </div>
             <div id="box_diameter" class="content_box" style="height: auto;"> 
-			<img class="pren_img" alt="" title="" src="//static.{$my_game_url}/media/gamemedia/styles/images/premium/planet_dia.jpg">
-			<div class="content_form">
-{$LNG.customm_6}: {$LNG.tech.922} <span style="color:#{if $isPlanetAMK < 60000}F30{else}0F0{/if}; font-weight:bold;" class="tooltip" data-tooltip-content="{$LNG.planet_dia_s_3}: {$isPlanetAM|number}"> 60.000
-            </div>
-			<form action="game.php?page=planet&amp;mode=dimeter" method="POST">
-            <input class="pren_btn_buy" value="{$LNG.planet_incre_ok}" type="submit"> </form>          
+			
+<div style="padding:10px; color:#CCC; line-height:20px; text-align:center"> <span style="float:right; color:#FC0;"></span>
+                {$LNG.planet_incre_const}:
+                {$LNG.planet_dia_s_4}
+                                <span style="color:#{if $pder_metalx >= $isPlanetMetal}0C0{else}F30{/if}; font-weight:bold;">
+                    {$isPlanetMetal|number}
+                </span>
+                                {$LNG.planet_dia_s_5}
+                                <span style="color:#{if $pder_crystalx >= $isPlanetCrystal}0C0{else}F30{/if}; font-weight:bold;">
+                     {$isPlanetCrystal|number}
+                </span>
+                                {$LNG.planet_dia_s_6}
+                                <span style="color:#{if $stardustxq >= 1}0C0{else}F30{/if}; font-weight:bold;">1</span>
+								
+								{if $pder_metalx >= $isPlanetMetal && $pder_crystalx >= $isPlanetCrystal && $stardustxq >= 1}<form action="game.php?page=planet&amp;mode=dimeter" method="POST">
+            <input class="" value="{$LNG.planet_incre_ok}" type="submit"> </form>{/if}  
+                                    		</div>
+			      
 			</div>
-    	</div>  *}
+    	</div>
 		
       
 	{if $shozpltype == 1}

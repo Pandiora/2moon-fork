@@ -14,7 +14,7 @@
 	
     	<div class="fractions_ico_big">
 		
-		{*{if $ally_fraction_id == 0}
+		{if $ally_fraction_id == 0}
         	<a href="game.php?page=alliance&amp;mode=fraction&amp;fraction=1"><img alt="" title="" class="tooltip" data-tooltip-content="{$LNG.all_frac_1}" src="styles/images/alliance/fraction_1.png"></a>
         	<a href="game.php?page=alliance&amp;mode=fraction&amp;fraction=2"><img alt="" title="" class="tooltip" data-tooltip-content="{$LNG.all_frac_2}" src="styles/images/alliance/fraction_2.png"></a>
             <a href="game.php?page=alliance&amp;mode=fraction&amp;fraction=3"><img alt="" title="" class="tooltip" data-tooltip-content="{$LNG.all_frac_3}" src="styles/images/alliance/fraction_3.png"></a>
@@ -65,7 +65,7 @@
 				{$LNG.ally_fractions_43}: 
         		<span style='color:#F33'>{$ally_fraction_level * $ALLFRACTION.ally_fraction_build_price}%</span><br />
 				{/if}" src="styles/images/alliance/fraction_{$ally_fraction_id}.png"></a>
-		{/if}*}
+		{/if}
 		
 			
                     </div>

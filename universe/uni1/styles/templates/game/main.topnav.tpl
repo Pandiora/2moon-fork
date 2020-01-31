@@ -158,7 +158,7 @@
 			 <div class="antimateria" id="res_block_antimatter"> <span class="tooltip_sticky" data-tooltip-content="
                     	<span class='p_res'>{$LNG.tech.922}</span><div style='border-bottom:1px dashed #666; margin:7px 0 4px 0;'></div>
                     	<a class='nuovomenusinistra' href='game.php?page=trader&amp;mode=obmen' style='width: 65px;float: left;'><img src='//static.{$my_game_url}/media/gamemedia/styles/images/amvsdm.png' style='margin-top:-3px;'></a>
-                    	<a class='nuovomenusinistra' href='game.php?page=trader&amp;mode=honor' style='width: 65px;float: left;'><img src='//static.{$my_game_url}/media/gamemedia/styles/images/amvshonor.png' style='margin-top:-3px;'></a>
+                    	{*<a class='nuovomenusinistra' href='game.php?page=trader&amp;mode=honor' style='width: 65px;float: left;'><img src='//static.{$my_game_url}/media/gamemedia/styles/images/amvshonor.png' style='margin-top:-3px;'></a>*}
                         <a class='oamlink' href='game.php?page=donation' style='width: 65px;float: left;'>{$LNG.top_purchase}</a>
                         <div style='border-bottom:1px dashed #666; margin:35px 0 4px 0;'></div> <span style='color:#999'>{$LNG.top_avaibel}: {$antimatter|number}</span>" id="current_antimatter">{$antimatter|number}<span class="antimg"></span>
                     </span></div>

@@ -252,7 +252,7 @@
             var rakets = "{$totalRockets}";
 			document.getElementById('beepataks').volume={$sirena};
 			var miniChat		= "{$MiniChat}";
-			var chat_domen_name	= "play.{$my_game_url}/{$Website2}";
+			var chat_domen_name	= "wog2.{$my_game_url}/{$Website2}";
 			
 			
         </script>

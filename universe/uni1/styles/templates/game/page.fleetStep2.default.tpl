@@ -114,39 +114,46 @@
 <b>{$LNG.sect_hostile_2}:</b><br>
 {$LNG.sect_hostile_10}<br>
 <br>
+<span style='color:orange'>Combat bonus chance on finding arsenal upgrades: {$combatbono|number}%</span><br>
 <span style='color:#28B306'>{$LNG.sect_hostile_8}</span><br>" type="radio">
             <label id="label_sector_1" for="sector_1" class="tooltip" data-tooltip-content="
 <b>{$LNG.sect_hostile_2}:</b><br>
 {$LNG.sect_hostile_10}<br>
 <br>
+<span style='color:orange'>Combat bonus chance on finding arsenal upgrades: {$combatbono|number}%</span><br>
 <span style='color:#28B306'>{$LNG.sect_hostile_8}</span><br>">{$LNG.sect_hostile_2}</label> 
          
             <input name="sectors" id="sector_2" value="2" class="tooltip" data-tooltip-content="
 <b>{$LNG.sect_hostile_3}:</b><br>
 {$LNG.sect_hostile_11}<br>
 <br>
+<span style='color:orange'>Combat bonus chance on finding arsenal upgrades: {$combatbono|number}%</span><br>
 <span style='color:#28B306'>{$LNG.sect_hostile_8}</span><br>" type="radio">
             <label id="label_sector_2" for="sector_2" class="tooltip" data-tooltip-content="
 <b>{$LNG.sect_hostile_3}:</b><br>
 {$LNG.sect_hostile_11}<br>
 <br>
+<span style='color:orange'>Combat bonus chance on finding arsenal upgrades: {$combatbono|number}%</span><br>
 <span style='color:#28B306'>{$LNG.sect_hostile_8}</span><br>">{$LNG.sect_hostile_3}</label> 
          
             <input name="sectors" id="sector_3" value="3" class="tooltip" data-tooltip-content="
 <b>{$LNG.sect_hostile_4}:</b><br>
 {$LNG.sect_hostile_12}<br>
 <br>
+<span style='color:orange'>Combat bonus chance on finding arsenal upgrades: {$combatbono|number}%</span><br>
 <span style='color:#28B306'>{$LNG.sect_hostile_8}</span><br>" type="radio">
             <label id="label_sector_3" for="sector_3" class="tooltip" data-tooltip-content="
 <b>{$LNG.sect_hostile_4}:</b><br>
 {$LNG.sect_hostile_12}<br>
 <br>
+<span style='color:orange'>Combat bonus chance on finding arsenal upgrades: {$combatbono|number}%</span><br>
 <span style='color:#28B306'>{$LNG.sect_hostile_8}</span><br>">{$LNG.sect_hostile_4}</label> 
          
      {*       <input name="sectors" id="sector_4" value="4" class="tooltip" data-tooltip-content="
 <b>{$LNG.sect_hostile_5}:</b><br>
 {$LNG.sect_hostile_9}<br>
 <br>
+<span style='color:orange'>Combat bonus chance on finding arsenal upgrades: {$combatbono|number}%</span><br>
 <span style='color:#28B306'>{$LNG.sect_hostile_8}</span><br>" type="radio">
             <label id="label_sector_4" for="sector_4" class="tooltip" data-tooltip-content="
 <b>{$LNG.sect_hostile_5}:</b><br>
@@ -158,22 +165,26 @@
 <b>{$LNG.sect_hostile_6}:</b><br>
 {$LNG.sect_hostile_13}<br>
 <br>
+<span style='color:orange'>Combat bonus chance on finding arsenal upgrades: {$combatbono|number}%</span><br>
 <span style='color:#28B306'>{$LNG.sect_hostile_8}</span><br>" type="radio">
             <label id="label_sector_5" for="sector_5" class="tooltip" data-tooltip-content="
 <b>{$LNG.sect_hostile_6}:</b><br>
 {$LNG.sect_hostile_13}<br>
 <br>
+<span style='color:orange'>Combat bonus chance on finding arsenal upgrades: {$combatbono|number}%</span><br>
 <span style='color:#28B306'>{$LNG.sect_hostile_8}</span><br>">{$LNG.sect_hostile_6}</label> 
          
             <input name="sectors" id="sector_6" value="6" class="tooltip" data-tooltip-content="
 <b>{$LNG.sect_hostile_7}:</b><br>
 {$LNG.sect_hostile_14}<br>
 <br>
+<span style='color:orange'>Combat bonus chance on finding arsenal upgrades: {$combatbono|number}%</span><br>
 <span style='color:#28B306'>{$LNG.sect_hostile_8}</span><br>" type="radio">
             <label id="label_sector_6" for="sector_6" class="tooltip" data-tooltip-content="
 <b>{$LNG.sect_hostile_7}:</b><br>
 {$LNG.sect_hostile_14}<br>
 <br>
+<span style='color:orange'>Combat bonus chance on finding arsenal upgrades: {$combatbono|number}%</span><br>
 <span style='color:#28B306'>{$LNG.sect_hostile_8}</span><br>">{$LNG.sect_hostile_7}</label> 
                 <div class="clear"></div>
     </div>

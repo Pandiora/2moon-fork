@@ -35,7 +35,7 @@
             </tr>
             <tr>
                 <td>{$LNG.market_59}: <input id="count" min="1" max="25" value="1" type="number" pattern="[0-9]*"></td>
-                <td>{$LNG.market_56}: <input id="cost" min="500" max="1000000" value="500" type="number" pattern="[0-9]*"></td>
+                <td>{$LNG.market_56}: <input id="cost" min="500" max="50000" value="500" type="number" pattern="[0-9]*"></td>
             </tr>
             <tr>
                 <td colspan="2">

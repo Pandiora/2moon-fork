@@ -136,13 +136,14 @@
 {if $currentPlanet.missions.1}<a class='tooltip_class_a_btn' style='height: 17px;line-height: 17px;' {if $currentPlanet.action.outlaw == 1}onclick='checkOutlaw()'{else}href='?page=fleetTable&amp;galaxy={$galaxy}&amp;system={$system}&amp;planet={$planet}&amp;planettype=1&amp;target_mission=1'{/if}><img src='styles/images/iconav/target.png' style='float: left;margin-left: 5px;margin-top: 2px;'>{$LNG.type_mission.1}</a>{/if}	
 {if $currentPlanet.missions.25}<a class='tooltip_class_a_btn' style='height: 17px;line-height: 17px;' href='?page=fleetTable&amp;galaxy={$galaxy}&amp;system={$system}&amp;planet={$planet}&amp;planettype=1&amp;target_mission=25'><img src='styles/images/iconav/target.png' style='float: left;margin-left: 5px;margin-top: 2px;'>{$LNG.type_mission.25}</a>{/if}
 {if $currentPlanet.missions.5}<a class='tooltip_class_a_btn' style='height: 17px;line-height: 17px;' href='?page=fleetTable&amp;galaxy={$galaxy}&amp;system={$system}&amp;planet={$planet}&amp;planettype=1&amp;target_mission=5'><img src='styles/images/iconav/fleet.png' style='float: left;margin-left: 5px;margin-top: 2px;'>{$LNG.type_mission.5}</a>{/if}	
-{if $currentPlanet.missions.16}<a class='tooltip_class_a_btn' style='height: 17px;line-height: 17px;' href='?page=fleetTable&amp;galaxy={$galaxy}&amp;system={$system}&amp;planet={$planet}&amp;planettype=1&amp;target_mission=16'><img src='styles/images/iconav/asteroideg.png' style='float: left;margin-left: 5px;margin-top: 2px;'>{$LNG.type_mission.16}</a>{/if}	
+{if $currentPlanet.missions.16}<a class='tooltip_class_a_btn' style='height: 17px;line-height: 17px;' href='javascript:Asteroid(16,{$currentPlanet.planet.id});' title='{$LNG.type_mission.16}' ><img src='styles/images/iconav/asteroideg.png' style='float: left;margin-left: 5px;margin-top: 2px;'>{$LNG.type_mission.16}</a>{/if}	
 {if $currentPlanet.missions.3}<a class='tooltip_class_a_btn' style='height: 17px;line-height: 17px;' href='?page=fleetTable&amp;galaxy={$galaxy}&amp;system={$system}&amp;planet={$planet}&amp;planettype=1&amp;target_mission=3'><img src='styles/images/iconav/risorseg.png' style='float: left;margin-left: 5px;margin-top: 2px;'>{$LNG.type_mission.3}</a>{/if}
 {if $currentPlanet.missions.4}<a class='tooltip_class_a_btn' style='height: 17px;line-height: 17px;' href='?page=fleetTable&amp;galaxy={$galaxy}&amp;system={$system}&amp;planet={$planet}&amp;planettype=1&amp;target_mission=4'><img src='styles/images/iconav/stazionag.png' style='float: left;margin-left: 5px;margin-top: 2px;'>{$LNG.type_mission.4}</a>{/if}
 {if $currentPlanet.missions.10}<a class='tooltip_class_a_btn'  style='height: 17px;line-height: 17px;' {if $currentPlanet.action.outlaw == 1}onclick='checkOutlaw()'{else}href='?page=galaxy&amp;action=sendMissle&amp;galaxy={$galaxy}&amp;system={$system}&amp;planet={$planet}'{/if}><img src='styles/images/iconav/rocket.png' style='float: left;margin-left: 5px;margin-top: 2px;'>{$LNG.type_mission.10}</a>{/if}		
 			
 							</td>
 		</tr></table>">
+		
 		<img {if $currentPlanet.planet.isAlliancePlanet != 0}style="border:1px solid #990;" {/if}src="//static.{$my_game_url}/media/gamemedia/styles/theme/gow/planeten/small/s_{$currentPlanet.planet.image}.png" alt="">
         		</span>
         <div class="gal_planet_name"{if $currentPlanet.planet.isAlliancePlanet != 0} style="color:#990; font-weight:bold;"{/if}>{$currentPlanet.planet.name} {$currentPlanet.lastActivity}</div>
@@ -217,7 +218,7 @@
            		            	<tr><td>{$LNG.ti_status} {foreach $currentPlanet.user.class as $class}<span class='galaxy-short-{$class} galaxy-short'>{$ShortStatus.$class}</span>{/foreach}</td></tr>
 								{/if}
                             </table>" style="color:#5ca6aa" >
-				<span class="{foreach $currentPlanet.user.classd as $color}{$color}{/foreach}">{if $currentPlanet.user.HonourStatus != 'none'}<span class="honorRank {$currentPlanet.user.HonourStatus}">&nbsp;</span>{else}<span class="honorRank" style="opacity: 0;">&nbsp;</span>{/if} {$currentPlanet.user.username}</span>
+				<span class="{foreach $currentPlanet.user.classd as $color}{$color}{/foreach}">{$currentPlanet.user.username}</span>
 								{foreach $currentPlanet.user.class as $class}{if $class@first}<span class="galaxy-short-{$class} galaxy-short">(</span>{/if}<span class="galaxy-short-{$class} galaxy-short">{$ShortStatus.$class}</span>{if $class@last}<span class="galaxy-short-{$class} galaxy-short">)</span>{/if}{/foreach}
 							</a>
 							{elseif $currentPlanet.user.isgal6mod == 1}
@@ -241,20 +242,23 @@
         <div class="gal_player_cont">
 {if $currentPlanet.action}
         	{if $currentPlanet.action.esp}
-<a class="ico_watch" title="{$LNG.gl_spy}" {if $currentPlanet.action.outlaw == 0} href="javascript:doit(6,{$currentPlanet.planet.id},{$currentPlanet.planet.planet},{$currentPlanet.planet.system},{$spyShips|json|escape:'html'})"{else}onclick="checkOutlaw()"{/if}></a>{else}	<span class="ico_watch" style="opacity:0;"> </span>	{/if}
+<a class="ico_watch" title="{$LNG.gl_spy}" {if $currentPlanet.action.outlaw == 0} href="javascript:doit(6,{$currentPlanet.planet.id},{$currentPlanet.planet.planet},{$currentPlanet.planet.system},{$spyShips|json|escape:'html'})"{else}onclick="checkOutlaw()"{/if}></a>{/if}
 {if $currentPlanet.action.message}
-<a href="#" class="ico_post" onclick="return Dialog.PM({$currentPlanet.user.id})" title="{$LNG.write_message}"></a>{else}	<span class="ico_post" style="opacity:0;"> </span>			{/if}	
+<a href="#" class="ico_post" onclick="return Dialog.PM({$currentPlanet.user.id})" title="{$LNG.write_message}"></a>			{/if}	
 {if $currentPlanet.action.buddy}
 <a href="#" class="ico_friend" onclick="return Dialog.Buddy({$currentPlanet.user.id})" title="{$LNG.gl_buddy_request}">
-				</a>{else}	<span class="ico_friend" style="opacity:0;"> </span>
+				</a>
               {/if}
 			{if $currentPlanet.action.savecoords}<a class="ico_save{$currentPlanet.action.showShover}" href="#" title="Save coords" data-gal="{$galaxy}" data-sys="{$system}" data-pl="{$planet}"></a>{/if}	
-{if $currentPlanet.action.missle}
+						
+			{if $currentPlanet.action.missle}
 				<a class="ico_write" {if $currentPlanet.action.outlaw == 1}onclick="checkOutlaw()"{else}href="?page=galaxy&amp;action=sendMissle&amp;galaxy={$galaxy}&amp;system={$system}&amp;planet={$planet}&amp;type=1"{/if} title="{$LNG.gl_missile_attack}">					
 				</a>
-				{else}	<span class="ico_write" style="opacity:0;"> </span>
+				
 				{/if}	
-			
+			{if $currentPlanet.action.sowAsteroi}<a class="ico_asteroid" title="{$LNG.type_mission.16}" href="javascript:Asteroid(16,{$currentPlanet.planet.id})"></a>
+			{/if}	
+				
 				
 															      
 

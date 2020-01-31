@@ -29,7 +29,7 @@
 		<script charset="UTF-8" src="//static.{$my_game_url}/media/js/validate.min.js" type="text/javascript"></script>
         <script charset="UTF-8" src="//static.{$my_game_url}/media/js/main.js" type="text/javascript"></script>       
 		
-		<script>{if isset($code)}var loginError = {$code|json};{/if}</script>
+		<script>{if isset($code)}var loginError = {$code};{/if}</script>
 		{block name="script"}{/block}	
 
 {if $ShowMode == 1}		

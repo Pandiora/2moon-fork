@@ -1,5 +1,18 @@
 {block name="title" prepend}{/block}
 {block name="content"}
+<style>
+bn-lup-bg {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: 1;
+}
+</style>
 <div class="title-nav bga-tn">
 	<div class="title-text"></div>
 </div>
@@ -19,6 +32,7 @@
 	</div>
 <script type="text/javascript">
 var arrayER 	= [1,2,3,4,5,6,7,8,9,10,11,901,902,903,921,200,400];
+var DOM			= {};
 $(function() 
 {	
 	$('.title-nav:first').hide();

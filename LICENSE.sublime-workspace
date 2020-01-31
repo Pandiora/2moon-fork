@@ -1,0 +1,620 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"qp",
+				"qpratio"
+			],
+			[
+				"upda",
+				"updateContent"
+			],
+			[
+				"sea",
+				"searchBrokenFiles"
+			],
+			[
+				"new",
+				"new_file"
+			],
+			[
+				"not",
+				"not_moved"
+			],
+			[
+				"post",
+				"postMetaData"
+			],
+			[
+				"fetchFil",
+				"fetchFileInfo"
+			],
+			[
+				"sta",
+				"stat_arr"
+			],
+			[
+				"file",
+				"files_arr"
+			],
+			[
+				"fil",
+				"filesize"
+			],
+			[
+				"check",
+				"checkSingle"
+			],
+			[
+				"error",
+				"error_log"
+			],
+			[
+				"metaW",
+				"metaWindow"
+			],
+			[
+				"met",
+				"metaWorkspace"
+			],
+			[
+				"errr",
+				"error_log"
+			],
+			[
+				"fetchSetti",
+				"fetchSettingsData"
+			],
+			[
+				"scan",
+				"scanFileSystem"
+			],
+			[
+				"for",
+				"foreach\tforeach …"
+			],
+			[
+				"file_",
+				"file_inode"
+			],
+			[
+				"st",
+				"statement"
+			],
+			[
+				"semo",
+				"semiColonPos"
+			],
+			[
+				"tr",
+				"triggah"
+			],
+			[
+				"File_",
+				"file_hash"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"reset",
+				"resetSettings"
+			],
+			[
+				"active",
+				"activeNav"
+			],
+			[
+				"html_",
+				"html_acter"
+			],
+			[
+				"htm",
+				"html_mid"
+			],
+			[
+				"kee",
+				"keepCnt"
+			],
+			[
+				"turn",
+				"turnDupesIntoGems"
+			],
+			[
+				"console",
+				"consoleRgb"
+			],
+			[
+				"send",
+				"sendConfirmation"
+			],
+			[
+				"generate",
+				"generateUrl"
+			],
+			[
+				"conf",
+				"confLink"
+			],
+			[
+				"start",
+				"startModConfHeader"
+			],
+			[
+				"consol",
+				"consoleRgb"
+			],
+			[
+				"drop",
+				"dropdownid"
+			],
+			[
+				"notif",
+				"notifications"
+			],
+			[
+				"get",
+				"getConfirmationKey"
+			],
+			[
+				"hm",
+				"hmac"
+			],
+			[
+				"hmac",
+				"hmacObj"
+			],
+			[
+				"gener",
+				"generateHexString"
+			],
+			[
+				"to",
+				"toggleActionAll"
+			],
+			[
+				"set",
+				"setTabActive"
+			],
+			[
+				"notification",
+				"notifications-item-container"
+			],
+			[
+				"open",
+				"openDoors"
+			],
+			[
+				"d",
+				"document_start"
+			],
+			[
+				"wh",
+				"whyJoinLeft"
+			],
+			[
+				"sen",
+				"sendResponse"
+			],
+			[
+				"delete",
+				"deleteCookies"
+			],
+			[
+				"appid",
+				"appidarr"
+			],
+			[
+				"webw",
+				"webworkers"
+			],
+			[
+				"fetch",
+				"fetchData"
+			],
+			[
+				"fet",
+				"fetchData"
+			],
+			[
+				"respo",
+				"responses"
+			],
+			[
+				"aja",
+				"ajaxPromises"
+			],
+			[
+				"csp_",
+				"csp_result"
+			],
+			[
+				"temp",
+				"tempArray"
+			],
+			[
+				"steam",
+				"steamid"
+			],
+			[
+				"app",
+				"appidarr"
+			],
+			[
+				"iterate",
+				"iterateValues"
+			],
+			[
+				"date",
+				"dateToIso"
+			],
+			[
+				"mast",
+				"master_steamid"
+			],
+			[
+				"tree",
+				"treeView"
+			],
+			[
+				"communi",
+				"communitySession"
+			],
+			[
+				"sto",
+				"store_sessionID"
+			],
+			[
+				"html",
+				"html_template"
+			],
+			[
+				"load",
+				"loadDatabaseContent"
+			],
+			[
+				"keepass",
+				"keepassxc-locked"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"reindent",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"rein",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"enable",
+				"Package Control: Enable Package"
+			],
+			[
+				"packa",
+				"Package Control: Disable Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"remove ",
+				"Package Control: Remove Package"
+			],
+			[
+				"Packa",
+				"Package Control: Install Package"
+			],
+			[
+				"install P",
+				"Package Control: Install Package"
+			],
+			[
+				"Package",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 200.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/run/user/1000/gvfs/sftp:host=pandiora.pw,user=root/home/blog/.htaccess",
+		"/run/user/1000/gvfs/sftp:host=pandiora.pw,user=root/var/log/apache2/error.log",
+		"/run/user/1000/gvfs/sftp:host=pandiora.pw,user=root/etc/apt/sources.list.d/php.list",
+		"/run/user/1000/gvfs/sftp:host=pandiora.pw,user=root/etc/apache2/sites-available/static.game.pandiora.pw.conf",
+		"/run/user/1000/gvfs/sftp:host=pandiora.pw,user=root/etc/php/7.0/cli/php.ini",
+		"/run/user/1000/gvfs/sftp:host=pandiora.pw,user=root/etc/php/7.0/apache2/php.ini",
+		"/run/user/1000/gvfs/sftp:host=pandiora.pw,user=root/etc/apache2/sites-available/game.pandiora.pw-le-ssl.conf",
+		"/run/user/1000/gvfs/sftp:host=pandiora.pw,user=root/etc/apache2/sites-available/game.pandiora.pw.conf",
+		"/run/user/1000/gvfs/sftp:host=pandiora.pw,user=root/etc/apache2/sites-available/uni1.game.pandiora.pw-le-ssl.conf",
+		"/run/user/1000/gvfs/sftp:host=pandiora.pw,user=root/etc/apache2/sites-available/uni1.game.pandiora.pw.conf",
+		"/run/user/1000/gvfs/sftp:host=pandiora.pw,user=root/etc/apache2/sites-available/static.game.pandiora.pw-le-ssl.conf",
+		"/run/user/1000/gvfs/sftp:host=pandiora.pw,user=root/etc/apache2/mods-available/php7.0.conf",
+		"/run/user/1000/gvfs/sftp:host=pandiora.pw,user=root/home/bsu/2moon fork/.gitignore",
+		"/home/zachary/.ssh/lsyncd-india-2moon.lua",
+		"/home/zachary/.cache/.fr-EpbfNA/skin/root.css",
+		"/home/zachary/.cache/.fr-q1o1eB/skin/root.css",
+		"/home/zachary/.gitkraken/profiles/d6e5a8ca26e14325a4275fc33b17e16f/repoSettings/defaultSettings-b00447a2df27bbf8ddcb0dfdea0f4714",
+		"/home/zachary/.gitkraken/profiles/d6e5a8ca26e14325a4275fc33b17e16f/repoSettings/2moon fork-253cef5166334a479bfd0cd1e13b03fc",
+		"/home/zachary/.gitkraken/profiles/d6e5a8ca26e14325a4275fc33b17e16f/repoSettings/2moon fork-bb2df8310ad876dba290af5f8aef2d6d",
+		"/home/zachary/.gitkraken/config",
+		"/home/zachary/.config/autostart/lsyncd.desktop",
+		"/home/zachary/.config/autostart/Devilspie2.desktop",
+		"/run/user/1000/gvfs/sftp:host=pandiora.pw,user=root/etc/systemd/system/syncthing-resume.service",
+		"/run/user/1000/gvfs/sftp:host=pandiora.pw,user=root/etc/systemd/system/syncthing.service",
+		"/run/user/1000/gvfs/sftp:host=pandiora.pw,user=root/home/bsu/.gitignore",
+		"/home/zachary/Dokumente/SteamAccountRoboticAssistant/.gitignore",
+		"/run/user/1000/gvfs/sftp:host=pandiora.pw,user=root/etc/apt/sources.list",
+		"/run/user/1000/gvfs/sftp:host=pandiora.pw,user=root/home/bsu/static/media/gamemedia/scripts/game/qtip.js",
+		"/run/user/1000/gvfs/sftp:host=pandiora.pw,user=root/home/bsu/static/.htaccess",
+		"/run/user/1000/gvfs/sftp:host=pandiora.pw,user=root/var/log/apache2/access.log",
+		"/home/zachary/Downloads/sql/xterium_game_version_1.sql",
+		"/run/user/1000/gvfs/sftp:host=pandiora.pw,user=root/home/bsu/universe/uni1/.htaccess",
+		"/run/user/1000/gvfs/sftp:host=pandiora.pw,user=root/home/bsu/portal/.htaccess",
+		"/run/user/1000/gvfs/sftp:host=pandiora.pw,user=root/home/bsu/portal/includes/pages/login/ShowIngamePage.class.php",
+		"/home/zachary/Downloads/sql/xterium_portal_db.sql",
+		"/run/user/1000/gvfs/sftp:host=pandiora.pw,user=root/home/bsu/portal/index.php",
+		"/run/user/1000/gvfs/sftp:host=pandiora.pw,user=root/etc/apt/sources.list.d/microsoft-prod.list",
+		"/run/user/1000/gvfs/sftp:host=pandiora.pw,user=root/etc/apache2/sites-available/static.pandiora.pw.conf",
+		"/run/user/1000/gvfs/sftp:host=pandiora.pw,user=root/etc/apache2/sites-available/uni1.pandiora.pw.conf",
+		"/run/user/1000/gvfs/sftp:host=pandiora.pw,user=root/etc/apache2/sites-available/uni1.pandiora.pw-le-ssl.conf",
+		"/run/user/1000/gvfs/sftp:host=pandiora.pw,user=root/etc/apache2/sites-available/portal.game.pandiora.pw.conf",
+		"/run/user/1000/gvfs/sftp:host=pandiora.pw,user=root/home/bsu/universe/uni1/includes/.htaccess",
+		"/run/user/1000/gvfs/sftp:host=pandiora.pw,user=root/home/bsu/universe/uni1/error_log",
+		"/run/user/1000/gvfs/sftp:host=pandiora.pw,user=root/home/bsu/portal/includes/config.php",
+		"/run/user/1000/gvfs/sftp:host=pandiora.pw,user=root/home/bsu/universe/uni1/includes/config.php",
+		"/run/user/1000/gvfs/sftp:host=pandiora.pw,user=root/home/bsu/universe/uni1/includes/classes/Database.class.php",
+		"/home/zachary/Downloads/2moons-xterium-master/GAME_FILES/TYPE_GAME_ONE/install/step06.php",
+		"/home/zachary/Downloads/2moons-xterium-master/GAME_FILES/TYPE_GAME_ONE/install/languages/uk/step5.php",
+		"/home/zachary/Downloads/2moons-xterium-master/GAME_FILES/TYPE_GAME_ONE/install/step05.php",
+		"/run/user/1000/gvfs/sftp:host=pandiora.pw,user=root/etc/apache2/sites-available/pandiora.pw.conf",
+		"/run/user/1000/gvfs/sftp:host=pandiora.pw,user=root/etc/apache2/sites-available/portal.pandiora.pw.conf",
+		"/home/zachary/Downloads/2moons-xterium-master/PORTAL_FILES/install/index.php",
+		"/home/zachary/Downloads/2moons-xterium-master/PORTAL_FILES/install/step03.php",
+		"/run/user/1000/gvfs/sftp:host=pandiora.pw,user=root/home/bsu/portal/includes/.config.sample.php",
+		"/run/user/1000/gvfs/sftp:host=pandiora.pw,user=root/home/bsu/universe/uni1/includes/config.sample.php",
+		"/run/user/1000/gvfs/sftp:host=pandiora.pw,user=root/etc/apache2/sites-available/steam.pandiora.pw.conf",
+		"/mnt/WDMyCloud/Downloads/dst/Microsoft Windows Enterprise 10 Build 18363.476 (x64)/serial.txt",
+		"/home/zachary/Dokumente/SteamAccountRoboticAssistant/js/steamFunctions.js",
+		"/root/smb.cred",
+		"/run/user/1000/gvfs/sftp:host=wdmycloud,user=root/home/hbgui/php-error.log",
+		"/run/user/1000/gvfs/sftp:host=wdmycloud,user=root/var/log/nginx/error.log",
+		"/run/user/1000/gvfs/sftp:host=wdmycloud,user=root/etc/sudoers",
+		"/run/user/1000/gvfs/sftp:host=wdmycloud,user=root/home/hbgui/php/functions.php",
+		"/run/user/1000/gvfs/sftp:host=wdmycloud,user=root/home/hbgui/.old/stuff.txt",
+		"/run/user/1000/gvfs/sftp:host=wdmycloud,user=root/home/hbgui/config/progress.log",
+		"/run/user/1000/gvfs/sftp:host=wdmycloud,user=root/home/hbgui/js/main.js",
+		"/run/user/1000/gvfs/sftp:host=wdmycloud,user=root/home/hbgui/.old/funxd/Handbrake-FUN.json",
+		"/run/user/1000/gvfs/sftp:host=wdmycloud,user=root/home/hbgui/bash/test-transcode.sh",
+		"/run/user/1000/gvfs/sftp:host=wdmycloud,user=root/home/hbgui/.old/testrun-id3.php",
+		"/run/user/1000/gvfs/sftp:host=wdmycloud,user=root/home/hbgui/.old/test-process.php",
+		"/run/user/1000/gvfs/sftp:host=wdmycloud,user=root/home/hbgui/.old/test-permissions.php",
+		"/run/user/1000/gvfs/sftp:host=wdmycloud,user=root/home/hbgui/.old/test-output.php",
+		"/run/user/1000/gvfs/sftp:host=wdmycloud,user=root/home/hbgui/.old/test-move.php",
+		"/run/user/1000/gvfs/sftp:host=wdmycloud,user=root/home/hbgui/.old/test-loop.php",
+		"/run/user/1000/gvfs/sftp:host=wdmycloud,user=root/home/hbgui/.old/test-logremove.php",
+		"/run/user/1000/gvfs/sftp:host=wdmycloud,user=root/home/hbgui/.old/test-id3.php",
+		"/run/user/1000/gvfs/sftp:host=wdmycloud,user=root/home/hbgui/.old/test2.php",
+		"/run/user/1000/gvfs/sftp:host=wdmycloud,user=root/home/hbgui/.old/test.php",
+		"/run/user/1000/gvfs/sftp:host=wdmycloud,user=root/home/hbgui/.old/test-iteration.php",
+		"/run/user/1000/gvfs/sftp:host=wdmycloud,user=root/home/hbgui/bash/smart-monitoring.sh",
+		"/run/user/1000/gvfs/sftp:host=wdmycloud,user=root/home/hbgui/config/hevc-10bit-medium-RF23.json",
+		"/run/user/1000/gvfs/sftp:host=wdmycloud,user=root/home/hbgui/config/h265-10bit-ultrafast.json",
+		"/mnt/WDMyCloud/Downloads/nzbget.log",
+		"/mnt/WDMyCloud/Downloads/ppscripts/flatten.py",
+		"/run/user/1000/gvfs/sftp:host=wdmycloud,user=root/.base",
+		"/mnt/WDMyCloud/Downloads/queue/files",
+		"/run/user/1000/gvfs/sftp:host=wdmycloud,user=root/etc/systemd/system/nzbget.service",
+		"/run/user/1000/gvfs/sftp:host=wdmycloud,user=root/home/.nzbget/nzbget.conf",
+		"/mnt/WDMyCloud/Downloads/queue/stats",
+		"/mnt/WDMyCloud/Downloads/queue/queue",
+		"/run/user/1000/gvfs/sftp:host=wdmycloud,user=root/home/nzbget/license-unrar.txt",
+		"/run/user/1000/gvfs/sftp:host=wdmycloud,user=root/home/nzbget/nzbget.conf",
+		"/mnt/WDMyCloud/Downloads/ppscripts/PasswordDetector.py",
+		"/mnt/WDMyCloud/Downloads/ppscripts/unzip.py",
+		"/home/zachary/Downloads/start.cmd",
+		"/run/user/1000/gvfs/sftp:host=wdmycloud,user=root/var/log/nginx/access.log",
+		"/run/user/1000/gvfs/sftp:host=wdmycloud,user=root/home/hbgui/bash/getMachineInfo.sh",
+		"/run/user/1000/gvfs/sftp:host=wdmycloud,user=root/home/hbgui/test-hddtemp.php",
+		"/run/user/1000/gvfs/sftp:host=wdmycloud,user=root/home/hbgui/config/ffmpeg-amf-full-git.pck",
+		"/run/user/1000/gvfs/sftp:host=wdmycloud,user=root/home/hbgui/config/ffmpeg-amd-full-git/PKGBUILD",
+		"/run/user/1000/gvfs/sftp:host=wdmycloud,user=root/home/hbgui/.old/test-skipped.php",
+		"/mnt/WDMyCloud/ROOT/etc/sudoers",
+		"/run/user/1000/gvfs/sftp:host=wdmycloud,user=root/etc/nginx/fastcgi-php.conf",
+		"/run/user/1000/gvfs/sftp:host=wdmycloud,user=root/etc/php/php-fpm.d/www.conf",
+		"/run/user/1000/gvfs/sftp:host=wdmycloud,user=root/etc/nginx/config/wdmycloud.local/phpblock.conf",
+		"/run/user/1000/gvfs/sftp:host=pandiora.pw,user=root/home/blog/wp-admin/admin-ajax.php",
+		"/run/user/1000/gvfs/sftp:host=pandiora.pw,user=root/home/blog/wp-admin/includes/image-edit.php",
+		"/run/user/1000/gvfs/sftp:host=wdmycloud,user=root/etc/nginx/phpblock.conf",
+		"/run/user/1000/gvfs/sftp:host=wdmycloud,user=root/etc/fstab",
+		"/mnt/WDMyCloud/ROOT/etc/nginx/sites-available/wdmycloud.local.conf",
+		"/run/user/1000/gvfs/sftp:host=wdmycloud,user=root/etc/nginx/sites-enabled/wdmycloud.local.conf",
+		"/run/user/1000/gvfs/sftp:host=wdmycloud,user=root/etc/nginx/sites-available/wdmycloud.local.conf",
+		"/run/user/1000/gvfs/sftp:host=wdmycloud,user=root/etc/nginx/nginx.conf",
+		"/run/user/1000/gvfs/sftp:host=wdmycloud,user=root/etc/nginx/fastcgi.conf",
+		"/run/user/1000/gvfs/sftp:host=wdmycloud,user=root/etc/php/php.ini",
+		"/run/user/1000/gvfs/sftp:host=wdmycloud,user=root/etc/php/php-fpm.conf",
+		"/run/user/1000/gvfs/sftp:host=wdmycloud,user=root/etc/nginx/fastcgi_params",
+		"/mnt/WDMyCloud/ROOT/etc/nginx/config/wdmycloud.local/phpblock.conf",
+		"/mnt/WDMyCloud/ROOT/etc/nginx/fastcgi.conf",
+		"/mnt/WDMyCloud/ROOT/etc/nginx/nginx.conf",
+		"/mnt/WDMyCloud/ROOT/etc/nginx/fastcgi_params",
+		"/mnt/WDMyCloud/ROOT/etc/nginx/snippets/fastcgi-php.conf",
+		"/run/user/1000/gvfs/sftp:host=wdmycloud,user=root/etc/samba/smb.conf",
+		"/run/user/1000/gvfs/sftp:host=wdmycloud,user=root/mnt/root/etc/fstab",
+		"/run/user/1000/gvfs/sftp:host=pandiora.pw,user=root/home/blog/wp-content/themes/mynote/functions.php",
+		"/run/user/1000/gvfs/sftp:host=pandiora.pw,user=root/home/blog/wp-content/themes/pandiora-child/functions.php",
+		"/run/user/1000/gvfs/sftp:host=wdmycloud,user=root/mnt/root/etc/samba/smb.conf.bak",
+		"/run/user/1000/gvfs/sftp:host=wdmycloud,user=root/mnt/root/etc/samba/gdbcommands"
+	],
+	"find":
+	{
+		"height": 28.0
+	},
+	"find_in_files":
+	{
+		"height": 187.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 68.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "LICENSE.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 354.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
