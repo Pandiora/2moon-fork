@@ -253,6 +253,52 @@ body{
 	background:url(../images/absorb_def.png) repeat-x right;
 	height:23px;
 }
+
+/* 
+* improve tooltip for damage absorbed and dealt 
+* S T A R T
+*/
+.btooltip {
+  position: relative;
+  display: inline-grid;
+  grid: auto-flow / auto auto;
+  grid-column-gap: 5px;
+  white-space: nowrap;
+  padding: 2px;
+}
+
+.btooltip > span { margin: 0; }
+
+.btooltip span:nth-child(2n+2){ text-align: right; }
+
+.btooltip span:nth-child(2n+2)::after {
+  content: "";
+  height: 12px;
+  width: 15px;
+  margin: 0 0 0 5px;
+  display: inline-block;
+  background-size: 8px auto !important;
+  background-position: 0px 2px !important;
+  background-repeat: no-repeat !important;
+}
+
+.btooltip span:nth-child(4n-2)::after {
+  background: url('../images/att.png');
+}
+.btooltip span:nth-child(4n-4)::after {
+  background: url('../images/def.png');
+}
+.btooltip span:nth-child(2n+2)::after {
+  filter: opacity(.5) drop-shadow(0 0 0 darkblue);
+}
+.btooltip span:nth-child(6n+2)::after {
+  filter: opacity(.5) drop-shadow(0 0 0 green);
+}
+/* 
+* improve tooltip for damage absorbed and dealt 
+* E N D
+*/
+
 .band_itog{
 	width:535px;
 	height:34px;

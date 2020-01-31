@@ -145,8 +145,12 @@
 {/if}
 {if !$RoundInfo@last}
 <div class="band_att tooltip" style="cursor:help !important" data-tooltip-content="
-	{$LNG.fleet_attack_1} {$RoundInfo.info[0]|number} {$LNG.fleet_attack_2} {$RoundInfo.info[3]|number} {$LNG.damage}<br>
-{$LNG.fleet_defs_1} {$RoundInfo.info[2]|number} {$LNG.fleet_defs_2} {$RoundInfo.info[1]|number} {$LNG.damage}
+    <span class='btooltip'>
+    <span>{$LNG.fleet_attack_1}</span><span>{$RoundInfo.info[0]|number}</span>
+    <span>{$LNG.fleet_attack_2}</span><span>{$RoundInfo.info[3]|number}</span>
+    <span>{$LNG.fleet_defs_1}</span><span>{$RoundInfo.info[2]|number}</span>
+    <span>{$LNG.fleet_defs_2}</span><span>{$RoundInfo.info[1]|number}</span>
+    </span>
 ">
     <div class="ico_part">
         <img alt="" title="" src="styles/images/att.png" />
