@@ -186,8 +186,10 @@
     {/foreach}
 
     <div class="band_itog tooltip" style="cursor:help !important" data-tooltip-content="
-    	{$LNG.sys_attacker_lostunits} {$Raport['units'][0]|number} {$LNG.sys_units}  <br>
-    	{$LNG.sys_defender_lostunits} {$Raport['units'][1]|number} {$LNG.sys_units} 
+        <span class='btooltip'>
+            <span>{$LNG.sys_attacker_lostunits}</span><span>{$Raport['units'][0]|number}</span>
+            <span>{$LNG.sys_defender_lostunits}</span><span>{$Raport['units'][1]|number}</span>
+        </span>
     ">
         <div class="ico_part">
             <img alt="" title="" src="styles/images/att.png">

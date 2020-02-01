@@ -30,8 +30,8 @@ $LNG['and']									= 'und';
 
 //----------------------------------------------------------------------------//
 //SYSTEM
-$LNG['sys_attacker_lostunits']   		    = 'Der Angreifer hat insgesamt';
-$LNG['sys_defender_lostunits'] 				= 'Der Verteidiger hat insgesamt';
+$LNG['sys_attacker_lostunits']   		    = 'Der Angreifer hat Einheiten verloren:';
+$LNG['sys_defender_lostunits'] 				= 'Der Verteidiger hat Einheiten verloren:';
 $LNG['sys_units']							= 'Einheiten verloren'; /*Units = Einheiten */
 $LNG['debree_field_1'] 						= 'Auf diesen Raumkoordinaten liegen nun';
 $LNG['debree_field_2']						= '.';
